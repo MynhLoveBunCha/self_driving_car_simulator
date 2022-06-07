@@ -12,7 +12,7 @@ class Car
         this.friction = 0.05;
         this.angle = 0;
         this.damage=false;
-        // this.polygon = this.#create_polygon();
+        this.polygon = this.#create_polygon();
         
         if(control_type != 'DUMMY')
         {
